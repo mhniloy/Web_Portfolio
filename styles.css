@@ -1,0 +1,21 @@
+body{
+    font-family: 'Bodoni Moda', serif;
+}
+.name{
+    color: blueviolet;
+}
+
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+.hw {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.hw img{
+    width: 100% ;
+}
