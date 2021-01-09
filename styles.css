@@ -9,16 +9,19 @@ body{
     color: tomato;
 }
 
-h1{
+h1
+{
     font-size: 60px;
 }
-h2{
+h2
+{
     font-size: 40px;
 }
 p{
     color: grey;
 }
-.hw {
+.hw 
+{
 
     width: 30%;
     float: left;
@@ -26,15 +29,16 @@ p{
     padding-left: 2%;
 }
 .hw img{
-    width: 90% ;
+    width: 100% ;
 }
 .top-banner{
     background-image: url("Images/top-banner.png");
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
-    padding-bottom: 150px;
+    height: 800px;
+    width: 100%;
+    padding-bottom: 100px;
 }
 .button
 {
@@ -51,4 +55,21 @@ section{
     background-image: url("Images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.pro
+{
+    box-shadow: 10px 10px 40px yellowgreen;
+    border-radius: 20px;
+    height: 80%;
+    background-color: white ;
+}
+.experiencearea
+{
+    background-image: url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
