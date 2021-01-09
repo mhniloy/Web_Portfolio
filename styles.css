@@ -5,6 +5,9 @@ body{
 .name{
     color: blueviolet;
 }
+.head{
+    color: tomato;
+}
 
 h1{
     font-size: 60px;
@@ -12,15 +15,18 @@ h1{
 h2{
     font-size: 40px;
 }
+p{
+    color: grey;
+}
 .hw {
 
-    width: 40%;
+    width: 30%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 .hw img{
-    width: 100% ;
+    width: 90% ;
 }
 .top-banner{
     background-image: url("Images/top-banner.png");
@@ -28,8 +34,10 @@ h2{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
-.button{
+.button
+{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
     padding: 10px 20px;
@@ -37,4 +45,10 @@ section{
     color: white;
     font-weight: bold;
 
+}
+.dreamarea
+{
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
